@@ -35,6 +35,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  padding-top: 24px;
 }
 
 .header {
