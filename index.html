@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
+    <title>homework-07</title>
 
-    <!-- Style Normalization -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
@@ -14,7 +13,6 @@
       referrerpolicy="no-referrer"
     />
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,13 +20,12 @@
       rel="stylesheet"
     />
 
-    <!-- Local CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body style>
+  <body>
     <!-- Header -->
     <header class="header">
-      <div class="top-header container">
+      <div class="nav-header container">
         <nav class="nav">
           <a class="logo link" href="./index.html"
             >Web<span class="header-logo">Studio</span></a
@@ -47,12 +44,12 @@
         <div class="contact-section">
           <address class="contacts">
             <ul class="list address">
-              <li class="contact-item">
+              <li class="contact-list">
                 <a class="contact link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="contact-item">
+              <li class="contact-list">
                 <a class="contact link" href="tel:+110001111111"
                   >+11 (000) 111-11-11</a
                 >
@@ -60,7 +57,7 @@
             </ul>
           </address>
 
-          <!-- Mobile Menu Button -->
+          <!-- Mobile-Menu-Button -->
           <div class="mobile-button">
             <button
               class="menu-toggle js-open-menu"
@@ -80,7 +77,7 @@
         </div>
       </div>
 
-      <!-- Hidden Mobile Menu -->
+      <!-- Hidden-Mobile-Menu -->
       <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="menu-toggle js-close-menu">
           <svg
@@ -93,17 +90,17 @@
           </svg>
         </button>
 
-        <!-- Mobile Menu -->
+        <!-- Mobile-Menu -->
         <div class="mobile-menu-container">
           <div class="mobile-main-menu">
             <ul class="mobile-list-menu">
-              <li class="mobile-list-item">
+              <li class="mobile-list">
                 <a class="active item-link" href="./index.html">Studio</a>
               </li>
-              <li class="mobile-list-item">
+              <li class="mobile-list">
                 <a class="item-link" href="./portfolio.html">Portfolio</a>
               </li>
-              <li class="mobile-list-item">
+              <li class="mobile-list">
                 <a class="item-link" href="">Contacts</a>
               </li>
             </ul>
@@ -123,10 +120,10 @@
               </li>
             </ul>
 
-            <!-- Socmed Icons -->
+            <!-- Social Media -->
             <div class="socmed-icon-wrapper">
               <ul class="list mobile-menu-socmed">
-                <!-- Instagram Icon -->
+                <!-- Instagram -->
                 <li class="mobile-menu-socmed-icon">
                   <a href="" class="mobile-menu-socmed-link">
                     <svg
@@ -140,7 +137,7 @@
                   </a>
                 </li>
 
-                <!-- Twitter Icon -->
+                <!-- Twitter -->
                 <li class="mobile-menu-socmed-icon">
                   <a href="" class="mobile-menu-socmed-link">
                     <svg
@@ -154,7 +151,7 @@
                   </a>
                 </li>
 
-                <!-- Facebook Icon -->
+                <!-- Facebook -->
                 <li class="mobile-menu-socmed-icon">
                   <a href="" class="mobile-menu-socmed-link">
                     <svg
@@ -168,132 +165,7 @@
                   </a>
                 </li>
 
-                <!-- LinkedIn Icon -->
-                <li class="mobile-menu-socmed-icon">
-                  <a href="" class="mobile-menu-socmed-link">
-                    <svg
-                      class="mobile-menu-socmed-svg"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                    >
-                      <use href="./images/icons.svg#linkedin-footer"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Mobile Menu Icon -->
-      <div class="mobile-menu-icon">
-        <button
-          class="menu-toggle js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg
-            class="mobile-menu-icon"
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="22"
-          >
-            <use href="./images/icons.svg#hamburger-icon"></use>
-          </svg>
-        </button>
-      </div>
-
-      <!-- Hidden Mobile Menu -->
-      <div class="menu-container js-menu-container" id="mobile-menu">
-        <button class="menu-toggle js-close-menu">
-          <svg
-            class="menu-toggle-close-svg"
-            xmlns="http://www.w3.org/2000/svg"
-            width="8"
-            height="8"
-          >
-            <use href="./images/icons.svg#modal-close"></use>
-          </svg>
-        </button>
-
-        <!-- Mobile Menu -->
-        <div class="mobile-menu-container">
-          <div class="mobile-main-menu">
-            <ul class="mobile-list-menu">
-              <li class="mobile-list-item">
-                <a class="active item-link" href="./index.html">Studio</a>
-              </li>
-              <li class="mobile-list-item">
-                <a class="item-link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="mobile-list-item">
-                <a class="item-link" href="">Contacts</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="mobile-contact-menu">
-            <ul class="mobile-list-contact">
-              <li class="mobile-contact-item">
-                <a class="item-link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-              <li class="mobile-contact-item">
-                <a class="email-link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-            </ul>
-
-            <!-- Socmed Icons -->
-            <div class="socmed-icon-wrapper">
-              <ul class="list mobile-menu-socmed">
-                <!-- Instagram Icon -->
-                <li class="mobile-menu-socmed-icon">
-                  <a href="" class="mobile-menu-socmed-link">
-                    <svg
-                      class="mobile-menu-socmed-svg"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                    >
-                      <use href="./images/icons.svg#instagram-footer"></use>
-                    </svg>
-                  </a>
-                </li>
-
-                <!-- Twitter Icon -->
-                <li class="mobile-menu-socmed-icon">
-                  <a href="" class="mobile-menu-socmed-link">
-                    <svg
-                      class="mobile-menu-socmed-svg"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                    >
-                      <use href="./images/icons.svg#twitter-footer"></use>
-                    </svg>
-                  </a>
-                </li>
-
-                <!-- Facebook Icon -->
-                <li class="mobile-menu-socmed-icon">
-                  <a href="" class="mobile-menu-socmed-link">
-                    <svg
-                      class="mobile-menu-socmed-svg"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                    >
-                      <use href="./images/icons.svg#facebook-footer"></use>
-                    </svg>
-                  </a>
-                </li>
-
-                <!-- LinkedIn Icon -->
+                <!-- LinkedIn -->
                 <li class="mobile-menu-socmed-icon">
                   <a href="" class="mobile-menu-socmed-link">
                     <svg
@@ -315,7 +187,7 @@
 
     <!-- Main -->
     <main>
-      <!-- First Section -->
+      <!-- First-Section -->
       <section class="first-section">
         <div class="container">
           <h1 class="main-header">Effective Solutions for Your Business</h1>
@@ -325,7 +197,7 @@
         </div>
       </section>
 
-      <!-- Second Section -->
+      <!-- Second-Section -->
       <section class="second-section">
         <div class="container">
           <h2 class="visually-hidden">Info</h2>
@@ -385,7 +257,7 @@
         </div>
       </section>
 
-      <!-- Third Section -->
+      <!-- Third-Section -->
       <section class="third-section">
         <div class="container">
           <h2 class="header-title">What are we doing</h2>
@@ -415,12 +287,12 @@
         </div>
       </section>
 
-      <!-- Fourth Section -->
+      <!-- Fourth-Section -->
       <section class="fourth-section">
         <div class="container">
           <h2 class="header-title">Our Team</h2>
 
-          <!-- Mark Guerrero -->
+          <!-- Mark-Guerrero -->
           <ul class="list team">
             <li class="team-member">
               <img
@@ -487,7 +359,7 @@
               </div>
             </li>
 
-            <!-- Tom Ford -->
+            <!-- Tom-Ford -->
             <li class="team-member">
               <img
                 src="./images/our-team-002.jpg"
@@ -554,7 +426,7 @@
               </div>
             </li>
 
-            <!-- Camila Garcia -->
+            <!-- Camila-Garcia -->
             <li class="team-member">
               <img
                 src="./images/our-team-003.jpg"
@@ -621,7 +493,7 @@
               </div>
             </li>
 
-            <!-- Daniel Wilson -->
+            <!-- Daniel-Wilson -->
             <li class="team-member">
               <img
                 src="./images/our-team-004.jpg"
@@ -691,12 +563,12 @@
         </div>
       </section>
 
-      <!-- Fifth Section -->
+      <!-- Fifth-Section -->
       <section class="fifth-section">
         <div class="container">
           <h2 class="header-title">Customers</h2>
           <ul class="list customer">
-            <!-- Icon 1 -->
+            <!-- Icon-1 -->
             <li class="customer-list">
               <a href="" class="customer-link">
                 <svg
@@ -710,7 +582,7 @@
               </a>
             </li>
 
-            <!-- Icon 2 -->
+            <!-- Icon-2 -->
             <li class="customer-list">
               <a href="" class="customer-link">
                 <svg
@@ -724,7 +596,7 @@
               </a>
             </li>
 
-            <!-- Icon 3 -->
+            <!-- Icon-3 -->
             <li class="customer-list">
               <a href="" class="customer-link">
                 <svg
@@ -738,7 +610,7 @@
               </a>
             </li>
 
-            <!-- Icon 4 -->
+            <!-- Icon-4 -->
             <li class="customer-list">
               <a href="" class="customer-link">
                 <svg
@@ -752,7 +624,7 @@
               </a>
             </li>
 
-            <!-- Icon 5 -->
+            <!-- Icon-5 -->
             <li class="customer-list">
               <a href="" class="customer-link">
                 <svg
@@ -766,7 +638,7 @@
               </a>
             </li>
 
-            <!-- Icon 6 -->
+            <!-- Icon-6 -->
             <li class="customer-list">
               <a href="" class="customer-link">
                 <svg
@@ -787,7 +659,6 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <!-- Logo & Text -->
         <div class="wrapper">
           <a class="logo link" href="./index.html"
             >Web<span class="footer-logo">Studio</span></a
@@ -915,7 +786,6 @@
                 name="user-name"
                 required
               />
-              <!-- SVG height value was modified from 24 to 18 (should be the correct value)-->
               <svg
                 class="modal-form-input-icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1022,10 +892,10 @@
     <!-- Modal -->
     <script src="./js/modal.js"></script>
 
-    <!-- Mobile Menu -->
+    <!-- Mobile-Menu -->
     <script defer src="js/mobile-menu.js"></script>
 
-    <!-- Scroll Lock -->
+    <!-- Scroll-Lock -->
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"

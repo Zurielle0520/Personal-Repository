@@ -1,10 +1,8 @@
-/* CSS Resets */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* CSS Variables */
 :root {
   --slate: #434455;
   --iris: #4d5ae5;
@@ -19,14 +17,13 @@
   --dairy: #fcfcfc;
 }
 
-/* INDEX PAGE */
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--slate);
   background-color: var(--white);
 }
 
-/* HEADER */
+/* Header */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -40,7 +37,6 @@ body {
 
 .header {
   border-bottom: 1px solid var(--cornflower);
-  /* HW4 */
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -50,9 +46,7 @@ body {
   display: flex;
 }
 
-/* HW7 */
-
-.top-header.container {
+.nav-header.container {
   height: 70px;
   display: flex;
   align-items: center;
@@ -60,12 +54,10 @@ body {
 }
 
 .container {
-  max-width: 428px;
   margin: 0 auto;
   padding: 0 15px;
+  max-width: 428px;
 }
-
-/* Navigation Items */
 
 .link,
 .item-link {
@@ -85,7 +77,7 @@ body {
   display: none;
 }
 
-/* Mobile Menu */
+/* Mobile-Menu */
 
 .menu-toggle {
   display: flex;
@@ -160,12 +152,12 @@ body {
   margin-top: 32px;
 }
 
-.mobile-list-item,
+.mobile-list,
 .mobile-contact-item {
   margin-bottom: 40px;
 }
 
-.mobile-list-item .item-link {
+.mobile-list .item-link {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -173,7 +165,7 @@ body {
   color: var(--navy-blue);
 }
 
-.mobile-list-item .active.item-link {
+.mobile-list .active.item-link {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -216,7 +208,7 @@ body {
   justify-content: flex-end;
 }
 
-/* Mobile Menu Socmed Logo */
+/* Mobile-Social-Media */
 
 .mobile-menu-socmed {
   display: flex;
@@ -237,7 +229,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* HW5 */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -250,9 +241,9 @@ body {
   fill: var(--cloud);
 }
 
-/* MAIN */
+/* Main */
 
-/* First Section */
+/* First-Section */
 
 .first-section {
   padding: 188px 0;
@@ -302,7 +293,7 @@ body {
   background-color: var(--ocean);
 }
 
-/* Second Section */
+/* Second-Section */
 
 .visually-hidden {
   position: absolute;
@@ -365,13 +356,11 @@ body {
   flex-wrap: wrap;
 }
 
-/* HW4 */
-
 .icon-container {
   display: none;
 }
 
-/* Third Section */
+/* Third-Section */
 
 .header-title {
   font-size: 36px;
@@ -387,7 +376,7 @@ body {
   display: none;
 }
 
-/* Fourth Section */
+/* Fourth-Section */
 
 .fourth-section {
   background-color: var(--cloud);
@@ -401,13 +390,10 @@ body {
   justify-content: center;
 }
 
-/* Reused third section header from main */
-
 .team-member {
   background-color: var(--white);
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
-  /* HW4 */
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -425,14 +411,11 @@ body {
   text-align: center;
 }
 
-/* Reused item header from main  */
-
-/* HW4 */
 .socmed-info {
   display: flex;
   justify-content: center;
   gap: 24px;
-  /* Not part of H4 instructions */
+
   margin-top: 8px;
 }
 
@@ -450,7 +433,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* HW5 */
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -463,8 +446,7 @@ body {
   fill: var(--cloud);
 }
 
-/* HW4 */
-/* Fifth Section */
+/* Fifth-Section */
 
 .fifth-section {
   padding: 96px 0;
@@ -491,7 +473,7 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--light-slate);
-  /* HW5 */
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -506,7 +488,7 @@ body {
   fill: currentColor;
 }
 
-/* FOOTER */
+/* Footer */
 
 .footer {
   background-color: var(--navy-blue);
@@ -564,7 +546,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--white);
   margin-bottom: 16px;
-  /* width: 100%; */
   justify-content: center;
   display: flex;
 }
@@ -587,11 +568,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* HW5 */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* HW6 */
 
 .footer-form-header {
   margin-bottom: 16px;
@@ -667,11 +645,9 @@ body {
   fill: var(--cloud);
 }
 
-/* FORTFOLIO PAGE */
+/* Portfolio */
 
 /* Main */
-
-/* Buttons */
 
 .services-section {
   padding: 48px 0 120px 0;
@@ -689,7 +665,6 @@ body {
   padding: 12px 24px;
   border: 1px solid var(--cornflower);
   border-radius: 4px;
-  /* HW5 */
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -709,20 +684,13 @@ body {
   color: var(--white);
   background-color: var(--ocean);
   border: 1px solid transparent;
-  /* HW4 */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* Reused item header from main  */
-
-/* Converting all images to block element */
-
 img {
   display: block;
 }
-
-/* Services List */
 
 .svc.list {
   display: flex;
@@ -738,10 +706,8 @@ img {
   border-top: none;
 }
 
-/* HW4 */
 .svc.link {
   display: block;
-  /* HW5 */
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -751,7 +717,6 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/* HW5 */
 .svc-img {
   position: relative;
   overflow: hidden;
@@ -845,7 +810,6 @@ img {
   fill: var(--white);
 }
 
-/* HW6 */
 .modal-window {
   padding: 72px 24px 24px;
 }
@@ -892,7 +856,6 @@ img {
   border-color: var(--iris);
 }
 
-/* To focus on the SVG icon */
 .modal-form-input:focus + .modal-form-input-icon {
   fill: var(--iris);
 }
@@ -981,23 +944,20 @@ img {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* Not included in GoIT, I just added based from Figma */
+
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   margin: 0 auto;
 }
 
-/* Not included in GoIT, I just added based from Figma */
 .modal-form-button:hover,
 .modal-form-button:focus {
   background-color: var(--ocean);
   border: none;
 }
 
-/* TABLET SCREEN */
+/* Tablet */
 
 @media screen and (min-width: 768px) {
-  /* INDEX PAGE */
-
   .menu-toggle {
     display: none;
   }
@@ -1006,19 +966,19 @@ img {
     display: none;
   }
 
-  /* HEADER */
+  /* Header */
 
   .logo {
     padding: 24px 0;
     margin-right: 120px;
   }
 
-  .top-header.container {
+  .nav-header.container {
     height: 72px;
     display: flex;
   }
 
-  .top-header {
+  .nav-header {
     display: flex;
     justify-content: end;
     width: 100%;
@@ -1051,14 +1011,13 @@ img {
 
   /* Navigation Items */
 
-  /* HW5 */
   .active.link {
     color: var(--ocean);
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .contact-item > .link {
+  .contact-list > .link {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -1112,12 +1071,11 @@ img {
 
   /* MAIN */
 
-  /* First Section */
+  /* First-Section */
 
   .hero-section {
     background-color: var(--navy-blue);
     padding: 112px 0;
-    /* HW4 */
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1155,7 +1113,6 @@ img {
     border: none;
     border-radius: 4px;
     margin: 0 auto;
-    /* HW5 */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -1164,7 +1121,7 @@ img {
     background-color: var(--ocean);
   }
 
-  /* Second Section */
+  /* Second-Section */
 
   .visually-hidden {
     position: absolute;
@@ -1205,9 +1162,7 @@ img {
     flex-basis: calc((100% - 24px) / 2);
   }
 
-  /* HW4 */
-
-  /* Third Section */
+  /* Third-Section */
 
   .header-title {
     font-size: 36px;
@@ -1235,8 +1190,7 @@ img {
     gap: 64px 24px;
   }
 
-  /* HW4 */
-  /* Fifth Section */
+  /* Fifth-Section */
 
   .customer {
     display: flex;
@@ -1249,7 +1203,7 @@ img {
     height: 88px;
   }
 
-  /* FOOTER */
+  /* Footer */
 
   .footer {
     padding: 97.5px 0;
@@ -1259,8 +1213,6 @@ img {
     display: inline-block;
     margin-bottom: 16px;
   }
-
-  /* HW4 */
 
   .footer .container {
     display: flex;
@@ -1287,11 +1239,9 @@ img {
     line-height: 1;
   }
 
-  /* FORTFOLIO PAGE */
+  /* Portfolio */
 
   /* Main */
-
-  /* Buttons */
 
   .services-section {
     padding: 64px 0 120px 0;
@@ -1328,20 +1278,14 @@ img {
     color: var(--white);
     background-color: var(--ocean);
     border: 1px solid transparent;
-    /* HW4 */
+
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 
-  /* Reused item header from main  */
-
-  /* Converting all images to block element */
-
   img {
     display: block;
   }
-
-  /* Services List */
 
   .svc.list {
     display: flex;
@@ -1413,12 +1357,10 @@ img {
   }
 }
 
-/* DESKTOP SCREEN */
+/* Desktop */
 
 @media screen and (min-width: 1158px) {
-  /* INDEX PAGE */
-
-  /* HEADER */
+  /* Header */
 
   .container {
     max-width: 1158px;
@@ -1455,16 +1397,15 @@ img {
 
   /* MAIN */
 
-  /* First Section */
+  /* First-Section */
 
   .hero-section {
     padding: 188px 0;
-    /* HW4 */
     background-size: auto;
     height: 600px;
   }
 
-  /* Second Section */
+  /* Second-Section */
 
   .info .list-header,
   .svc .list-header {
@@ -1486,8 +1427,6 @@ img {
     flex-basis: calc((100% - 72px) / 4);
   }
 
-  /* HW4 */
-
   .icon-container {
     display: flex;
     align-items: center;
@@ -1498,7 +1437,7 @@ img {
     margin-bottom: 8px;
   }
 
-  /* Third Section */
+  /* Third-Section */
 
   .header-title {
     font-size: 36px;
@@ -1524,7 +1463,7 @@ img {
     flex-basis: calc((100% - 48px) / 3);
   }
 
-  /* Fourth Section */
+  /* Fourth-Section */
 
   .fourth-section {
     padding: 120px 0;
@@ -1535,13 +1474,11 @@ img {
     gap: 24px;
   }
 
-  /* Reused third section header from main */
-
   .team-member {
     background-color: var(--white);
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
-    /* HW4 */
+
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
@@ -1593,8 +1530,7 @@ img {
     fill: var(--cloud);
   }
 
-  /* HW4 */
-  /* Fifth Section */
+  /* Fifth-Section */
 
   .fifth-section {
     padding: 120px 0;
@@ -1619,7 +1555,7 @@ img {
     align-items: center;
     justify-content: center;
     color: var(--light-slate);
-    /* HW5 */
+
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -1634,7 +1570,7 @@ img {
     fill: currentColor;
   }
 
-  /* FOOTER */
+  /* Footer */
 
   .footer {
     background-color: var(--navy-blue);
@@ -1656,8 +1592,6 @@ img {
     display: inline-block;
     margin-bottom: 16px;
   }
-
-  /* HW4 */
 
   .footer > .container {
     display: flex;
@@ -1710,7 +1644,7 @@ img {
     fill: var(--cloud);
   }
 
-  /* FORTFOLIO PAGE */
+  /* Portfolio */
 
   /* Main */
 
@@ -1751,14 +1685,10 @@ img {
     color: var(--white);
     background-color: var(--ocean);
     border: 1px solid transparent;
-    /* HW4 */
+
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
-
-  /* Reused item header from main  */
-
-  /* Converting all images to block element */
 
   img {
     display: block;
@@ -1887,7 +1817,6 @@ img {
     fill: var(--white);
   }
 
-  /* HW6 */
   .modal-window {
     padding: 72px 24px 24px;
   }
@@ -1934,7 +1863,6 @@ img {
     border-color: var(--iris);
   }
 
-  /* To focus on the SVG icon */
   .modal-form-input:focus + .modal-form-input-icon {
     fill: var(--iris);
   }
@@ -2023,19 +1951,16 @@ img {
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* Not included in GoIT, I just added based from Figma */
+
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin: 0 auto;
   }
 
-  /* Not included in GoIT, I just added based from Figma */
   .modal-form-button:hover,
   .modal-form-button:focus {
     background-color: var(--ocean);
     border: none;
   }
-
-  /* HW6 */
 
   .footer-form-header {
     margin-bottom: 16px;
